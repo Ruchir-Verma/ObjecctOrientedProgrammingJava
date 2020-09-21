@@ -1,0 +1,23 @@
+Shallow copy :
+
+
+ Same object but different reference variables
+ -----------------------------------------------
+ 
+ Deep copy :
+ 
+ Creating different objects,but with same value as previous object.
+ A obj = new A();
+ obj.i = 5;
+ 
+ A obj1 = new A();
+ obj1.i = obj.i
+ ----------------------------------------------------
+ 
+ 
+ 
+Object cloning :
+ 
+ A obj = new A()
+ A.obj1 = obj.clone()
+ 
